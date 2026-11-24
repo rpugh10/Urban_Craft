@@ -133,15 +133,13 @@ header {
   gap: 11px;
 }
 
-.brand-mark {
-  display: grid;
-  width: 39px;
-  height: 39px;
-  place-items: center;
-  border: 1px solid var(--green);
-  border-radius: 50%;
-  color: var(--green);
-  font: italic 1.2rem var(--serif);
+.brand-logo {
+  background: var(--green);
+  padding: 4px;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  object-fit: cover;
 }
 
 .brand-name {
